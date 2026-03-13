@@ -6,10 +6,12 @@ import Roster from './components/Roster';
 import ForVenues from './components/ForVenues';
 import ForArtists from './components/ForArtists';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="min-h-screen bg-black text-white">
+      <Header />
       <Hero />
       <Positioning />
       <Services />
